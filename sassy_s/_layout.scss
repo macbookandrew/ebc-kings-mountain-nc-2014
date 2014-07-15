@@ -1,3 +1,13 @@
+#masthead,
+#content,
+#colophon {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: $secondary-background;
+}
+
 // Layout: Content-Sidebar
 @if $layout == content-sidebar {
 	.content-area {
@@ -32,7 +42,7 @@
 	}
 }
 
-@if $layout != null {
+@if $layout != null {    
 	.site-footer {
 		clear: both;
 		width: 100%;
