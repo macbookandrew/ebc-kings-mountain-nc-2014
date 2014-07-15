@@ -1,0 +1,18 @@
+{
+    "path": {
+        "sassy_s/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "output": "../style.css",
+                "includePaths": [],
+                "imagePath": null,
+                "sourceComments": "map",
+                "sourceMap": "style.css.map",
+                "outputStyle": "nested"
+            }
+        },
+        "sassy_s/settings.scss": {
+            "sass.enabled": false
+        }
+    }
+}
