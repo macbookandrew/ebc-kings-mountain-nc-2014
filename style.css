@@ -373,7 +373,7 @@ textarea {
       display: none;
       float: left;
       position: absolute;
-      top: 1.5em;
+      top: 3em;
       left: 0;
       z-index: 99999; }
       .main-navigation ul ul li a {
@@ -395,7 +395,6 @@ textarea {
 
 /* =Content
 ----------------------------------------------- */
-
 .hentry {
   margin: 0 0 1.5em; }
 
@@ -501,7 +500,6 @@ embed, iframe, object {
 ----------------------------------------------- */
 .comment-content a {
   word-wrap: break-word; }
-
 
 /* =Widgets
 ----------------------------------------------- */
