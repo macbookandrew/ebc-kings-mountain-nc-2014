@@ -2,15 +2,18 @@
 ----------------------------------------------- */
 
 .main-navigation {
-	clear: both;
+    clear: both;
 	display: block;
 	float: left;
 	width: 100%;
-    background-color: $tertiary-background;
+	background-color: $tertiary-background;
+    z-index: 10;
 
 	// first level
 	ul {
 		list-style: none;
+        width: 70%;
+        max-width: 1200px;
 		margin: 0;
 		padding-left: 0;
 
@@ -40,7 +43,6 @@
 
 		// second level
 		ul {
-			background-color: $tertiary-background;
             box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			display: none;
 			float: left;
@@ -54,6 +56,7 @@
 			}
 
 			li {
+                background-color: $tertiary-background;
 				a {
 					width: 200px;
 					&:hover {};
@@ -69,6 +72,11 @@
 		}
 	}
 
+}
+
+.menu {
+    @extend .full-width-container;
+    padding: inherit;
 }
 
 /* Small menu */

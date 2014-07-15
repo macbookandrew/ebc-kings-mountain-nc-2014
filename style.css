@@ -330,11 +330,13 @@ textarea {
   /* Improves readability and alignment in all browsers */
   width: 98%; }
 
-.site-header, .site-content, .site-footer {
+.full-width-container, .site-content, .site-footer, .menu {
+  margin: 0 auto;
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 1em;
+  padding: 1em; }
+
+.site-header, .site-content, .site-footer {
   background-color: rgba(242, 193, 120, 0.75); }
 
 .site-header {
@@ -350,9 +352,12 @@ textarea {
   display: block;
   float: left;
   width: 100%;
-  background-color: #0f1f41; }
+  background-color: #0f1f41;
+  z-index: 10; }
   .main-navigation ul {
     list-style: none;
+    width: 70%;
+    max-width: 1200px;
     margin: 0;
     padding-left: 0; }
     .main-navigation ul li {
@@ -368,7 +373,6 @@ textarea {
         .main-navigation ul li:hover > ul {
           display: block; }
     .main-navigation ul ul {
-      background-color: #0f1f41;
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       display: none;
       float: left;
@@ -376,11 +380,16 @@ textarea {
       top: 3em;
       left: 0;
       z-index: 99999; }
-      .main-navigation ul ul li a {
-        width: 200px; }
+      .main-navigation ul ul li {
+        background-color: #0f1f41; }
+        .main-navigation ul ul li a {
+          width: 200px; }
       .main-navigation ul ul ul {
         left: 100%;
         top: 0; }
+
+.menu {
+  padding: inherit; }
 
 /* Small menu */
 .menu-toggle {
