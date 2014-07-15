@@ -3,8 +3,12 @@
 // yourself. This means that changes that should be small, such as tweaking the
 // coloring or the sizing, can be done in one place, not all over the stylesheet.
 
-$base-font: sans-serif;
-$header-font: $base-font; // you can refer to other variables
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Pacifico:400);
+
+$base-font: "Lato", sans-serif;
+$header-font: "Oswald"; // you can refer to other variables
 
 // base color scheme
 $body-background: #fff;
