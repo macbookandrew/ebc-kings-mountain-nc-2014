@@ -10,14 +10,18 @@ $base-font: "Lato", sans-serif;
 $header-font: "Oswald", sans-serif; // you can refer to other variables
 
 // base color scheme
-$primary-background: rgb(60, 38, 22);
-$primary-background-overlay: rgba(60, 38, 22, 0.4);
-$secondary-background: rgba(202, 196, 170, 0.75);
+// from https://kuler.adobe.com/Theme-7-color-theme-4131334/
+$primary-background: rgba(91, 45, 35, 1);
+$primary-background-overlay: rgba($primary-background, 0.4);
+$secondary-background: rgba(242, 193, 120, 0.75);
+$tertiary-background: rgba(15, 31, 65, 1);
+$quaternary-background: rgba(46, 51, 61, 1);
+$quinary-background: rgba(29, 23, 29, 1);
 
 $body-background: $primary-background;
-$text-color: #404040;
-$link-color: royalblue;
-$link-visited: purple;
+$text-color: #1D171D;
+$link-color: #0F1F41;
+$link-visited: #2E333D;
 
 // Supported Values for $layout:
 //  null | content-sidebar | sidebar-content

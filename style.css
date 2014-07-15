@@ -53,7 +53,7 @@ html {
   box-sizing: border-box; }
 
 body {
-  background: #3c2616; }
+  background: #5b2d23; }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section {
   display: block; }
@@ -137,7 +137,7 @@ a img {
 
 /* Clearing */
 body, button, input, select, textarea {
-  color: #404040;
+  color: #1D171D;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
@@ -248,12 +248,12 @@ img {
 
 /* Links */
 a {
-  color: royalblue; }
+  color: #0F1F41; }
   a:hover, a:active, a:focus {
-    color: #132d76; }
+    color: black; }
 
 a:visited {
-  color: purple; }
+  color: #2E333D; }
 
 button, input, select, textarea {
   font-size: 100%;
@@ -335,7 +335,7 @@ textarea {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1em;
-  background-color: rgba(202, 196, 170, 0.75); }
+  background-color: rgba(242, 193, 120, 0.75); }
 
 .site-header {
   display: block; }
@@ -349,7 +349,8 @@ textarea {
   clear: both;
   display: block;
   float: left;
-  width: 100%; }
+  width: 100%;
+  background-color: #0f1f41; }
   .main-navigation ul {
     list-style: none;
     margin: 0;
@@ -359,10 +360,15 @@ textarea {
       position: relative; }
       .main-navigation ul li a {
         display: block;
-        text-decoration: none; }
-      .main-navigation ul li:hover > ul {
-        display: block; }
+        padding: 0.75em 0.75em;
+        text-decoration: none;
+        color: white; }
+      .main-navigation ul li:hover {
+        background-color: #2e333d; }
+        .main-navigation ul li:hover > ul {
+          display: block; }
     .main-navigation ul ul {
+      background-color: #0f1f41;
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       display: none;
       float: left;
@@ -548,7 +554,7 @@ embed, iframe, object {
 
 .simple-slide-content-wrapper {
   height: 100%;
-  background-color: rgba(60, 38, 22, 0.4); }
+  background-color: rgba(91, 45, 35, 0.4); }
 
 .simple-slide-content {
   padding: 2em;
