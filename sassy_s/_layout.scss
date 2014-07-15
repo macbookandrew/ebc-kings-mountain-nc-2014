@@ -1,11 +1,21 @@
-#masthead,
-#content,
-#colophon {
+// main body styles
+.site-header,
+.site-content,
+.site-footer {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1em;
     background-color: $secondary-background;
+}
+
+// header
+.site-header {
+    display: block;
+}
+
+.site-branding {
+    font-size: larger;
 }
 
 // Layout: Content-Sidebar

@@ -330,12 +330,18 @@ textarea {
   /* Improves readability and alignment in all browsers */
   width: 98%; }
 
-#masthead, #content, #colophon {
+.site-header, .site-content, .site-footer {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1em;
   background-color: rgba(202, 196, 170, 0.75); }
+
+.site-header {
+  display: block; }
+
+.site-branding {
+  font-size: larger; }
 
 /* =Menu
 ----------------------------------------------- */
