@@ -11,7 +11,11 @@ $base-font: "Lato", sans-serif;
 $header-font: "Oswald", sans-serif; // you can refer to other variables
 
 // base color scheme
-$body-background: #fff;
+$primary-background: rgb(60, 38, 22);
+$primary-background-overlay: rgba(60, 38, 22, 0.4);
+$secondary-background: rgba(202, 196, 170, 0.75);
+
+$body-background: $primary-background;
 $text-color: #404040;
 $link-color: royalblue;
 $link-visited: purple;
