@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 /*
 Theme Name: EBC Kings Mountain, NC
 Theme URI: http://underscores.me/
@@ -21,8 +23,6 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 */
-@import url(http://fonts.googleapis.com/css?family=Oswald:700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 /* =Reset
 -------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -136,7 +136,6 @@ a img {
   /* Above WP toolbar */ }
 
 /* Clearing */
-
 body, button, input, select, textarea {
   color: #404040;
   font-family: "Lato", sans-serif;
@@ -647,4 +646,4 @@ embed, iframe, object {
   .simple-slide-content h2, .simple-slide-content p {
     font-size: 20px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.map */
