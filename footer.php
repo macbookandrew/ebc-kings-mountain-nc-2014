@@ -24,7 +24,7 @@
 <script type="text/javascript">
   jQuery(function($) {
     $(document).ready( function() {
-      $('.main-navigation').stickUp();
+      $('.site-header').stickUp();
     });
   });
 

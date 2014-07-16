@@ -3,6 +3,7 @@
 
 $menu-height: 5em;
 $menu-height-small: 3em;
+$menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 
 // logo
 .site-logo {
@@ -54,7 +55,7 @@ $menu-height-small: 3em;
 
 		// second level
 		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			box-shadow: $menu-shadow;
 			display: none;
 			float: left;
 			position: absolute;
@@ -132,4 +133,8 @@ $menu-height-small: 3em;
   .main-navigation ul {
       display: none;
   }
+}
+
+.isStuck {
+    box-shadow: $menu-shadow;
 }
