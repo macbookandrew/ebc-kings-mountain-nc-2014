@@ -18,7 +18,7 @@ $menu-height-small: 3em;
     background-color: $link-color;
 	clear: both;
 	display: block;
-    height: $menu-height;
+    min-height: $menu-height;
     padding: 0;
 
 	// first level
@@ -97,15 +97,13 @@ $menu-height-small: 3em;
 	cursor: pointer;
 }
 
+// up-to-large screens
 @media screen and (max-width: 70em) {    
     .site-logo {
         float: none;
     }
     .site-logo img {
         margin-top: .5em;
-    }
-    .main-navigation {
-        height: $menu-height-small;
     }
     .main-navigation ul ul {
         top: 3.5em;
@@ -116,13 +114,22 @@ $menu-height-small: 3em;
     }
 }
 
+// medium screens
+@media screen and (min-width: 42em) and (max-width: 69em) {
+    .main-navigation {
+        min-height: $menu-height-small;
+    }
+}
+
+// small screens
 @media screen and (max-width: 42em) {
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
-    display: block;
+      display: block;
+      margin: $vspacing 0;
   }
 
   .main-navigation ul {
-    display: none;
+      display: none;
   }
 }
