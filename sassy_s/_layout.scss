@@ -6,10 +6,36 @@
     padding: 1em;
 }
 
+.main-navigation,
 .site-content,
 .footer {
     @extend .full-width;
     background-color: $body-color;
+}
+
+// header
+.site-header {
+    background-color: $link-color;
+}
+
+@media screen and (min-width: 42em) {
+    .site-header {
+        position: fixed;
+        width: 100%;
+    }
+}
+
+// add space to top to accomadate header
+@media screen and (min-width: 70em) {
+    .site-content {
+        padding-top: 6em;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 69em) {
+    .site-content {
+        padding-top: 8em;
+    }
 }
 
 // Layout: Content-Sidebar
