@@ -127,7 +127,7 @@ $menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
       display: block;
-      margin: $vspacing 0;
+      margin: $vspacing auto;
   }
 
   .main-navigation ul {
