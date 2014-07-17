@@ -1,9 +1,13 @@
 // main page layout
 .full-width {
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
+    padding: $vspacing;
+    
+    @media screen and (min-width: 42em) {
+        width: 80%;
+    }
 }
 
 .main-navigation,
@@ -11,22 +15,6 @@
 .site-footer {
     @extend .full-width;
     background-color: $body-color;
-}
-
-// header
-.site-header {
-    background-color: $link-color;
-}
-
-@media screen and (min-width: 42em) {
-    .site-header {
-        position: fixed;
-        width: 100%;
-    }
-}
-
-.attachment-page_header {
-    margin-bottom: -.5em;
 }
 
 // Layout: Content-Sidebar

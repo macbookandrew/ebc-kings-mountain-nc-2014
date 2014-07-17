@@ -1,0 +1,28 @@
+// header
+.site-header {
+    background-color: $link-color;
+}
+
+.attachment-page_header {
+    margin-bottom: -.5em;
+}
+
+// add space to top to accomadate header
+@media screen and (min-width: 70em) {
+    .attachment-page_header {
+        padding-top: 5em;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 69em) {
+    .attachment-page_header {
+        padding-top: 7em;
+    }
+}
+
+@media screen and (min-width: 42em) {
+    .site-header {
+        position: fixed;
+        width: 100%;
+    }
+}

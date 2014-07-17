@@ -410,10 +410,15 @@ textarea {
 .full-width, .main-navigation,
 .site-content,
 .site-footer {
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1em; }
+  padding: 1.5em; }
+  @media screen and (min-width: 42em) {
+    .full-width, .main-navigation,
+    .site-content,
+    .site-footer {
+      width: 80%; } }
 
 .main-navigation,
 .site-content,
@@ -423,13 +428,19 @@ textarea {
 .site-header {
   background-color: #354b74; }
 
+.attachment-page_header {
+  margin-bottom: -.5em; }
+
+@media screen and (min-width: 70em) {
+  .attachment-page_header {
+    padding-top: 5em; } }
+@media screen and (min-width: 42em) and (max-width: 69em) {
+  .attachment-page_header {
+    padding-top: 7em; } }
 @media screen and (min-width: 42em) {
   .site-header {
     position: fixed;
     width: 100%; } }
-.attachment-page_header {
-  margin-bottom: -.5em; }
-
 /* =Menu
 ----------------------------------------------- */
 .site-logo {
