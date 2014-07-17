@@ -8,7 +8,7 @@ $menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 // logo
 .site-logo {
     float: left;
-    padding: .75em 0;
+    padding: .75em 1em .75em 0;
 }
 
 .site-logo img {
@@ -41,7 +41,7 @@ $menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 
 			// link hover
 			&:hover {
-                background-color: $link-hover-color;
+                background-color: $menu-hover-color;
                 
 				> a { }
 				> ul { display: block; }
@@ -77,7 +77,7 @@ $menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 				}
                 
                 &:hover {
-                    background-color: $link-hover-color;
+                    background-color: $menu-hover-color;
                 }
 			}
 

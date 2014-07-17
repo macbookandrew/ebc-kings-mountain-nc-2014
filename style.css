@@ -445,7 +445,7 @@ textarea {
 ----------------------------------------------- */
 .site-logo {
   float: left;
-  padding: .75em 0; }
+  padding: .75em 1em .75em 0; }
 
 .site-logo img {
   height: 3em; }
@@ -469,7 +469,7 @@ textarea {
         text-decoration: none;
         color: white; }
       .main-navigation ul li:hover {
-        background-color: #4091b5; }
+        background-color: #1c2638; }
         .main-navigation ul li:hover > ul {
           display: block; }
     .main-navigation ul ul {
@@ -487,7 +487,7 @@ textarea {
           width: 200px;
           padding: 0.75em 1.5em; }
         .main-navigation ul ul li:hover {
-          background-color: #4091b5; }
+          background-color: #1c2638; }
       .main-navigation ul ul ul {
         left: 100%;
         top: 0; }
