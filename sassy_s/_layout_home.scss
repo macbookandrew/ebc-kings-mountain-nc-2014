@@ -21,9 +21,25 @@
 // fallback
 .no-flexbox .home-graphic {
     float: left;
-    width: 31%;
+    
+    @media screen and (min-width: 70em) {
+        width: 31%;
+    }
+    
+    @media screen and (min-width: 42em) and (max-width: 70em) {
+        width: 29%;
+    }
+    
+    @media screen and (min-width: 35em) and (max-width: 42em) {
+        width: 45%;
+    }
+    
+    @media screen and (max-width: 35em) {
+        width: 100%;
+    }
 }
 
+// small screens
 @media screen and (max-width: 35em) {
     .flexbox {
         .home-graphic-container {
@@ -33,5 +49,11 @@
         .home-graphic {
             margin: .5em 0;
         }
+    }
+    
+    // fallback
+    .no-flebox .home-graphic {
+        float: none;
+        margin: 0.5em auto;
     }
 }

@@ -718,8 +718,19 @@ object {
           flex-grow: 1; }
 
 .no-flexbox .home-graphic {
-  float: left;
-  width: 31%; }
+  float: left; }
+  @media screen and (min-width: 70em) {
+    .no-flexbox .home-graphic {
+      width: 31%; } }
+  @media screen and (min-width: 42em) and (max-width: 70em) {
+    .no-flexbox .home-graphic {
+      width: 29%; } }
+  @media screen and (min-width: 35em) and (max-width: 42em) {
+    .no-flexbox .home-graphic {
+      width: 45%; } }
+  @media screen and (max-width: 35em) {
+    .no-flexbox .home-graphic {
+      width: 100%; } }
 
 @media screen and (max-width: 35em) {
   .flexbox .home-graphic-container {
@@ -729,6 +740,10 @@ object {
         -ms-flex-direction: column;
             flex-direction: column; }
   .flexbox .home-graphic {
-    margin: .5em 0; } }
+    margin: .5em 0; }
+
+  .no-flebox .home-graphic {
+    float: none;
+    margin: 0.5em auto; } }
 
 /*# sourceMappingURL=style.css.map */
