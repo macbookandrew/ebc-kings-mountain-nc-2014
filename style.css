@@ -567,7 +567,7 @@ textarea {
   background-color: white; }
   .wp-caption .wp-caption-text {
     text-align: center;
-    padding: 0.8075em 0 0.40375em 0; }
+    padding: 0.8075em 1em 0.40375em 1em; }
 
 .gallery {
   margin-bottom: 1.5em; }
