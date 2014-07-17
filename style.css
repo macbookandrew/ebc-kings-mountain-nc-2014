@@ -562,16 +562,12 @@ textarea {
   padding: 0; }
 
 .wp-caption {
-  border: 1px solid #ccc;
   margin-bottom: 1.5em;
-  max-width: 100%; }
-  .wp-caption img[class*="wp-image-"] {
-    display: block;
-    margin: 1.2% auto 0;
-    max-width: 98%; }
+  max-width: 100%;
+  background-color: white; }
   .wp-caption .wp-caption-text {
     text-align: center;
-    margin: 0.8075em 0; }
+    padding: 0.8075em 0 0.40375em 0; }
 
 .gallery {
   margin-bottom: 1.5em; }
@@ -702,5 +698,37 @@ object {
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
 .infinity-end.neverending .site-footer {
   display: block; }
+
+.home-graphic {
+  display: block;
+  margin: 0 1.5em 1.5em 0;
+  padding: 0; }
+  .home-graphic:last-of-type {
+    margin-right: 0; }
+
+.flexbox .home-graphic-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+.flexbox .home-graphic {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.no-flexbox .home-graphic {
+  float: left;
+  width: 31%; }
+
+@media screen and (max-width: 35em) {
+  .flexbox .home-graphic-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .flexbox .home-graphic {
+    margin: .5em 0; } }
 
 /*# sourceMappingURL=style.css.map */

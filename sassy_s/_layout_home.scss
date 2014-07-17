@@ -1,0 +1,37 @@
+.home-graphic {
+    display: block;
+    margin: 0 $vspacing $vspacing 0;
+    padding: 0;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.flexbox {
+    .home-graphic-container {
+        display: flex;
+    }
+
+     .home-graphic {
+        flex-grow: 1;
+    }
+}
+
+// fallback
+.no-flexbox .home-graphic {
+    float: left;
+    width: 31%;
+}
+
+@media screen and (max-width: 35em) {
+    .flexbox {
+        .home-graphic-container {
+            flex-direction: column;
+        }
+        
+        .home-graphic {
+            margin: .5em 0;
+        }
+    }
+}
