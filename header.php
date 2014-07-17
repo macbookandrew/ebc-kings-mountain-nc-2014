@@ -29,5 +29,3 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">

@@ -8,7 +8,7 @@
 
 .main-navigation,
 .site-content,
-.footer {
+.site-footer {
     @extend .full-width;
     background-color: $body-color;
 }
@@ -25,17 +25,8 @@
     }
 }
 
-// add space to top to accomadate header
-@media screen and (min-width: 70em) {
-    .site-content {
-        padding-top: 6em;
-    }
-}
-
-@media screen and (min-width: 42em) and (max-width: 69em) {
-    .site-content {
-        padding-top: 8em;
-    }
+.attachment-page_header {
+    margin-bottom: -.5em;
 }
 
 // Layout: Content-Sidebar

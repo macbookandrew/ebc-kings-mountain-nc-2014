@@ -11,6 +11,10 @@ if ( has_post_thumbnail() ) {
     the_post_thumbnail( 'page_header' );
 }
 ?>
+<div id="content" class="site-content">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>

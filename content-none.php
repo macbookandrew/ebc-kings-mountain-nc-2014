@@ -8,6 +8,10 @@
  */
 ?>
 
+<div id="content" class="site-content">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+
 <section class="no-results not-found">
 	<header class="page-header">
 		<h1 class="page-title"><?php _e( 'Nothing Found', 'ebckm-2014' ); ?></h1>
