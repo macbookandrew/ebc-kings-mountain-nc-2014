@@ -19,9 +19,13 @@
                 justify-content: center; } }
 
 .home-quick-link {
-  padding: 1em; }
+  padding-bottom: 1em; }
   .home-quick-link + .home-quick-link {
-    margin-left: 1em; }
+    margin-left: 2em; }
+  .home-quick-link a {
+    text-decoration: none; }
+    .home-quick-link a:hover {
+      text-decoration: underline; }
   @media screen and (min-width: 900px) {
     .home-quick-link {
       width: 33%;

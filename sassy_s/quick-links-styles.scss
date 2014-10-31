@@ -17,10 +17,16 @@
 }
 
 .home-quick-link {
-	padding: 1em;
+	padding-bottom: 1em;
     
-    + .home-quick-link { margin-left: 1em; }
+    + .home-quick-link { margin-left: 2em; }
 
+    a {
+        text-decoration: none;
+        
+        &:hover { text-decoration: underline; }
+    }
+    
     @media screen and (min-width: 900px) {
         width: 33%;
         float: left;
@@ -35,9 +41,7 @@
             display: block;
             width: 100%;
         }
-        img {
-            margin: 0 auto;
-        }
+        img { margin: 0 auto; }
     }
 
     @media screen and (min-width: 500px) and (max-width: 899px) {
