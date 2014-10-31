@@ -427,20 +427,26 @@ textarea {
 
 .site-header {
   background-color: #354b74; }
+  @media (min-width: 42em) {
+    .site-header {
+      position: fixed;
+      width: 100%; } }
 
-.attachment-page_header {
+.attachment-page_header,
+.attachment-page_header_tall {
   margin-bottom: -.5em; }
+  @media (min-width: 70em) {
+    .attachment-page_header,
+    .attachment-page_header_tall {
+      padding-top: 5em; } }
+  @media (min-width: 42em) and (max-width: 69em) {
+    .attachment-page_header,
+    .attachment-page_header_tall {
+      padding-top: 7em; } }
 
-@media screen and (min-width: 70em) {
-  .attachment-page_header {
-    padding-top: 5em; } }
-@media screen and (min-width: 42em) and (max-width: 69em) {
-  .attachment-page_header {
-    padding-top: 7em; } }
-@media screen and (min-width: 42em) {
-  .site-header {
-    position: fixed;
-    width: 100%; } }
+.no-thumbnail .entry-content {
+  margin-top: 5em; }
+
 /* =Menu
 ----------------------------------------------- */
 .site-logo {

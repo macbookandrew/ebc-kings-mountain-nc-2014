@@ -7,9 +7,12 @@
 ?>
 
 <?php
-if ( has_post_thumbnail() ) {
-    the_post_thumbnail( 'page_header' );
-}
+    if ( has_post_thumbnail() ) {
+        if ( is_front_page() ) { the_post_thumbnail( 'page_header_tall' ); }
+        else { the_post_thumbnail( 'page_header' ); }
+        $extra_post_class = NULL;
+    }
+    else { $extra_post_class = 'no-thumbnail'; }
 ?>
 <div id="content" class="site-content">
 <div id="primary" class="content-area">

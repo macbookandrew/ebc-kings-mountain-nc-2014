@@ -132,4 +132,5 @@ require get_template_directory() . '/inc/jetpack.php';
 /**
  * Custom image size for featured images.
  */
-add_image_size( 'page_header', '2400', '800' );
+add_image_size( 'page_header', '2400', '400' );
+add_image_size( 'page_header_tall', '2400', '800' );
