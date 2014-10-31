@@ -8,12 +8,24 @@ textarea {
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
+    
+    @media (max-width: 999px) {
+        font-size: 15px;
+        font-size: 1.5rem;
+    }
 }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	font-family: $header-font;
+    font-weight: 700;
 	clear: both;
+}
+h1 { font-size: 1.777777em; }
+h2 { font-size: 1.333333em; }
+.widget-area {
+    h1 { font-size: 1.333333em; }
+    h2 { font-size: 1em; }
 }
 hr {
 	background-color: #ccc;
@@ -28,6 +40,8 @@ p {
 }
 ul, ol {
 	margin: 0 0 $vspacing 3em;
+    
+    &.no-bullet { margin-left: 0; }
 }
 ul {
 	list-style: disc;

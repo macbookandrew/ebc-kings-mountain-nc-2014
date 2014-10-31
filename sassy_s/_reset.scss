@@ -47,8 +47,8 @@ nav,
 section {
 	display: block;
 }
-ol, ul {
-	list-style: none;
+ol.no-bullet, ul.no-bullet {
+    list-style: none;
 }
 table { /* tables still need 'cellspacing="0"' in the markup */
 	border-collapse: separate;

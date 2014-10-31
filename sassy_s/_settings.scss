@@ -21,5 +21,5 @@ $link-visited: $background-color;
 
 // Supported Values for $layout:
 //  null | content-sidebar | sidebar-content
-$layout: null !default;
+$layout: content-sidebar;
 $vspacing: 1.5em;

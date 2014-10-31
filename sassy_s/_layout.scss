@@ -22,30 +22,57 @@ body:hover .visually-hidden button {
     max-width: 1200px;
     margin: 0 auto;
     padding: $vspacing;
-    
-    @media screen and (min-width: 42em) { width: 80%; }
 }
 
 .main-navigation,
-.site-content,
-.site-footer {
+.site-content {
     @extend .full-width;
     background-color: $body-color;
 }
 
+.site-footer {
+    @extend .full-width;
+    background-color: $link-color;
+    color: white;
+    text-align: center;
+    
+    a { color: white; }
+}
+
 // Layout: Content-Sidebar
 @if $layout == content-sidebar {
-	.content-area {
-		float: left;
-		margin: 0 -25% 0 0;
-		width: 100%;
-	}
-	.site-main { margin: 0 25% 0 0; }
-	.site-content .widget-area { /* Sidebar 1 */
-		float: right;
-		overflow: hidden;
-		width: 25%;
-	}
+    @media (min-width: 57em) {
+        .page-template-default {
+            .content-area {
+                float: left;
+                margin: 0 -25% 0 0;
+                padding-right: 1em;
+                width: 100%;
+            }
+            .site-main { margin: 0 25% 0 0; }
+            .site-content .widget-area { /* Sidebar 1 */
+                float: right;
+                overflow: hidden;
+                padding-left: 1em;
+                width: 25%;
+            }
+        }
+    }
+    .page-template-page-full-width-php {
+        .widget-area {
+            .flexbox &, .flexbox-legacy & {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+        .widget {
+            + .widget { margin: 0 0 0 $vspacing; }
+
+            .flexbox &, .flexbox-legacy & {}
+
+            .no-flexbox & { float: left; }
+        }
+    }
 }
 
 // Layout: Sidebar-Content
