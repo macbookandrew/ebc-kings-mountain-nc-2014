@@ -14,7 +14,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'ebckm-2014' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'ebckm-2014' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'ebckm-2014' ), 'EBC Kings Mountain, NC', '<a href="http://andrewrminion.com/" rel="designer">Andrew Minion</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'ebckm-2014' ), 'EBC Kings Mountain, NC', '<a href="http://andrewrminion.com/" rel="designer">AndrewRMinion Design</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

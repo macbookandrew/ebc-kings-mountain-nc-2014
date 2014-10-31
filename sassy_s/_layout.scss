@@ -23,9 +23,7 @@ body:hover .visually-hidden button {
     margin: 0 auto;
     padding: $vspacing;
     
-    @media screen and (min-width: 42em) {
-        width: 80%;
-    }
+    @media screen and (min-width: 42em) { width: 80%; }
 }
 
 .main-navigation,
@@ -42,9 +40,7 @@ body:hover .visually-hidden button {
 		margin: 0 -25% 0 0;
 		width: 100%;
 	}
-	.site-main {
-		margin: 0 25% 0 0;
-	}
+	.site-main { margin: 0 25% 0 0; }
 	.site-content .widget-area { /* Sidebar 1 */
 		float: right;
 		overflow: hidden;
@@ -59,9 +55,7 @@ body:hover .visually-hidden button {
 		margin: 0 0 0 -25%;
 		width: 100%;
 	}
-	.site-main {
-		margin: 0 0 0 25%;
-	}
+	.site-main { margin: 0 0 0 25%; }
 	.site-content .widget-area { /* Sidebar 1 */
 		float: left;
 		overflow: hidden;
