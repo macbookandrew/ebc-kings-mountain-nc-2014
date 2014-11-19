@@ -38,7 +38,7 @@ function ebckm_2014_setup() {
 	 *
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
-	//add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -101,6 +101,8 @@ function ebckm_2014_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+    wp_enqueue_script( 'jquery' );
 }
 add_action( 'wp_enqueue_scripts', 'ebckm_2014_scripts' );
 
