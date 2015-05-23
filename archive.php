@@ -71,6 +71,11 @@ get_header(); ?>
 					if ( ! empty( $term_description ) ) :
 						printf( '<div class="taxonomy-description">%s</div>', $term_description );
 					endif;
+
+                    // Show sermon sorting
+                    if ( strpos( get_post_type(), 'wpfc' ) !== false ) {
+                        render_wpfc_sorting();
+                    }
 				?>
 			</header><!-- .page-header -->
 
