@@ -3,8 +3,8 @@
 // yourself. This means that changes that should be small, such as tweaking the
 // coloring or the sizing, can be done in one place, not all over the stylesheet.
 
-$base-font: sans-serif;
-$header-font: $base-font; // you can refer to other variables
+$base-font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font: "Slabo 13px", Georgia, serif; // you can refer to other variables
 
 //variables
 $background-color: rgba(115, 112, 112, 1);

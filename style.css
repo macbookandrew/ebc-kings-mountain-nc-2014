@@ -56,6 +56,7 @@ html {
 *:after {
   /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -176,7 +177,7 @@ input,
 select,
 textarea {
   color: #737070;
-  font-family: sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5; }
@@ -191,7 +192,7 @@ textarea {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: "Slabo 13px", Georgia, serif;
   font-weight: 700;
   clear: both; }
 
@@ -376,6 +377,7 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
+  -webkit-box-sizing: content-box;
   /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
   -moz-box-sizing: content-box;
   box-sizing: content-box; }
@@ -473,12 +475,8 @@ body:hover .visually-hidden button {
     padding-left: 1em;
     width: 25%; } }
 .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
+  justify-content: space-around; }
 .page-template-page-full-width-php .widget + .widget {
   margin: 0 0 0 1.5em; }
 .no-flexbox .page-template-page-full-width-php .widget {
@@ -778,13 +776,9 @@ object {
     margin-right: 0; }
 
 .flexbox .home-graphic-container {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
 .flexbox .home-graphic {
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1; }
+  flex-grow: 1; }
 
 .no-flexbox .home-graphic {
   float: left; }
@@ -803,9 +797,7 @@ object {
 
 @media screen and (max-width: 35em) {
   .flexbox .home-graphic-container {
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column; }
+    flex-direction: column; }
   .flexbox .home-graphic {
     margin: .5em 0; }
 

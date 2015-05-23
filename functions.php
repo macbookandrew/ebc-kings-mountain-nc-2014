@@ -92,6 +92,7 @@ add_action( 'widgets_init', 'ebckm_2014_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ebckm_2014_scripts() {
+    wp_enqueue_style( 'webfonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Slabo+13px' );
 	wp_enqueue_style( 'ebckm-2014-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'ebckm-2014-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
