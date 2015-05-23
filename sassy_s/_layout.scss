@@ -62,15 +62,18 @@ body:hover .visually-hidden button {
         .widget-area {
             .flexbox &, .flexbox-legacy & {
                 display: flex;
-                justify-content: space-around;
+                @media (min-width: 42em) { justify-content: space-around; }
+                @media (max-width: 41em) { flex-wrap: wrap; }
             }
         }
         .widget {
-            + .widget { margin: 0 0 0 $vspacing; }
+            padding: $vspacing;
 
             .flexbox &, .flexbox-legacy & {}
 
-            .no-flexbox & { float: left; }
+            .no-flexbox & {
+                float: left;
+            }
         }
     }
 }

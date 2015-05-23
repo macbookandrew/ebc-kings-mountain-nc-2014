@@ -55,8 +55,6 @@ html {
 *:before,
 *:after {
   /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -377,9 +375,7 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
-  -webkit-box-sizing: content-box;
   /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
-  -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-decoration {
@@ -475,12 +471,24 @@ body:hover .visually-hidden button {
     padding-left: 1em;
     width: 25%; } }
 .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area {
-  display: flex;
-  justify-content: space-around; }
-.page-template-page-full-width-php .widget + .widget {
-  margin: 0 0 0 1.5em; }
-.no-flexbox .page-template-page-full-width-php .widget {
-  float: left; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (min-width: 42em) {
+    .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area {
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+  @media (max-width: 41em) {
+    .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area {
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; } }
+.page-template-page-full-width-php .widget {
+  padding: 1.5em; }
+  .no-flexbox .page-template-page-full-width-php .widget {
+    float: left; }
 
 .site-footer {
   clear: both;
@@ -503,14 +511,14 @@ body:hover .visually-hidden button {
   @media (min-width: 42em) and (max-width: 69em) {
     .attachment-page_header,
     .attachment-page_header_tall {
-      padding-top: 8em; } }
+      padding-top: 7em; } }
 
 @media (min-width: 70em) {
   .no-thumbnail #primary, .no-thumbnail #secondary {
     margin-top: 5em; } }
 @media (min-width: 42em) and (max-width: 69em) {
   .no-thumbnail #primary, .no-thumbnail #secondary {
-    margin-top: 8em; } }
+    margin-top: 7em; } }
 
 /* =Menu
 ----------------------------------------------- */
@@ -776,9 +784,15 @@ object {
     margin-right: 0; }
 
 .flexbox .home-graphic-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 .flexbox .home-graphic {
-  flex-grow: 1; }
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
 
 .no-flexbox .home-graphic {
   float: left; }
@@ -797,12 +811,15 @@ object {
 
 @media screen and (max-width: 35em) {
   .flexbox .home-graphic-container {
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .flexbox .home-graphic {
     margin: .5em 0; }
 
   .no-flebox .home-graphic {
     float: none;
     margin: 0.5em auto; } }
-
 /*# sourceMappingURL=style.css.map */
