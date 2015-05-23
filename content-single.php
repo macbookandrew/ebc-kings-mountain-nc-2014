@@ -9,7 +9,10 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
-			<?php ebckm_2014_posted_on(); ?>
+			<?php
+            if ( strpos( 'wpfc', get_post_type() ) !== false )
+                ebckm_2014_posted_on();
+            ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
