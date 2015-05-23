@@ -8,7 +8,12 @@
  */
 ?>
 
-	</div><!-- #content -->
+		</main><!-- #main.site-main -->
+	</div><!-- #primary.content-area -->
+
+    <?php get_sidebar(); ?>
+
+	</div><!-- #content.site-content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">

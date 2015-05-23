@@ -38,6 +38,6 @@
     else { $thumbnail_test = 'no-thumbnail'; }
 ?>
 <div id="content" class="site-content <?php echo $thumbnail_test; ?>">
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
 

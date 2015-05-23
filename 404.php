@@ -27,8 +27,4 @@ get_header(); ?>
 
 </article><!-- #post-## -->
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
