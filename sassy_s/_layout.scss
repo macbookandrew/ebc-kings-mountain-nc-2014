@@ -8,7 +8,7 @@
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
-} 
+}
 
 body:hover .visually-hidden a,
 body:hover .visually-hidden input,
@@ -35,14 +35,14 @@ body:hover .visually-hidden button {
     background-color: $link-color;
     color: white;
     text-align: center;
-    
+
     a { color: white; }
 }
 
 // Layout: Content-Sidebar
 @if $layout == content-sidebar {
     @media (min-width: 57em) {
-        .page-template-default {
+        .page-template-default, .error404, .archive {
             .content-area {
                 float: left;
                 margin: 0 -25% 0 0;

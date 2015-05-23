@@ -457,14 +457,14 @@ body:hover .visually-hidden button {
     color: white; }
 
 @media (min-width: 57em) {
-  .page-template-default .content-area {
+  .page-template-default .content-area, .error404 .content-area, .archive .content-area {
     float: left;
     margin: 0 -25% 0 0;
     padding-right: 1em;
     width: 100%; }
-  .page-template-default .site-main {
+  .page-template-default .site-main, .error404 .site-main, .archive .site-main {
     margin: 0 25% 0 0; }
-  .page-template-default .site-content .widget-area {
+  .page-template-default .site-content .widget-area, .error404 .site-content .widget-area, .archive .site-content .widget-area {
     /* Sidebar 1 */
     float: right;
     overflow: hidden;
@@ -822,4 +822,5 @@ object {
   .no-flebox .home-graphic {
     float: none;
     margin: 0.5em auto; } }
+
 /*# sourceMappingURL=style.css.map */
