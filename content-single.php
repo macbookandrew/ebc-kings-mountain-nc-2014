@@ -10,7 +10,7 @@
 
 		<div class="entry-meta">
 			<?php
-            if ( strpos( 'wpfc', get_post_type() ) !== false )
+            if ( strpos( get_post_type(), 'wpfc' ) !== false )
                 ebckm_2014_posted_on();
             ?>
 		</div><!-- .entry-meta -->
