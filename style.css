@@ -27,7 +27,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 html { font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */ overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */ -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */ -ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */ }
 
-*, *:before, *:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *:before, *:after { /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */ box-sizing: border-box; }
 
 body { background: #737070; }
 
@@ -153,7 +153,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 input[type="checkbox"], input[type="radio"] { padding: 0; /* Addresses excess padding in IE8/9 */ }
 
-input[type="search"] { -webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */ -webkit-box-sizing: content-box; /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */ -moz-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"] { -webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */ /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */ box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */ -webkit-appearance: none; }
 
@@ -183,11 +183,11 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
   .page-template-default .site-main, .error404 .site-main, .archive .site-main, .single-wpfc_sermon .site-main { margin: 0 25% 0 0; }
   .page-template-default .site-content .widget-area, .error404 .site-content .widget-area, .archive .site-content .widget-area, .single-wpfc_sermon .site-content .widget-area { /* Sidebar 1 */ float: right; overflow: hidden; padding-left: 1em; width: 25%; } }
 
-.flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { display: flex; }
+.flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
-@media (min-width: 42em) { .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { justify-content: space-around; } }
+@media (min-width: 42em) { .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; } }
 
-@media (max-width: 41em) { .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { flex-wrap: wrap; } }
+@media (max-width: 41em) { .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; } }
 
 .page-template-page-full-width-php .widget { padding: 1.5em; }
 
@@ -234,6 +234,8 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 .main-navigation ul ul li a { width: 200px; padding: 0.75em 1.5em; }
 
 .main-navigation ul ul li:hover { background-color: #1c2638; }
+
+.main-navigation ul ul li.page_item_has_children::after { content: "\0a\bb"; position: absolute; top: .55em; right: .5em; font-size: 18px; color: white; }
 
 .main-navigation ul ul ul { left: 100%; top: 0; }
 
@@ -354,9 +356,9 @@ embed, iframe, object { max-width: 100%; }
 
 .home-graphic:last-of-type { margin-right: 0; }
 
-.flexbox .home-graphic-container { display: flex; }
+.flexbox .home-graphic-container { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
-.flexbox .home-graphic { flex-grow: 1; }
+.flexbox .home-graphic { -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; }
 
 .no-flexbox .home-graphic { float: left; }
 
@@ -368,8 +370,7 @@ embed, iframe, object { max-width: 100%; }
 
 @media screen and (max-width: 35em) { .no-flexbox .home-graphic { width: 100%; } }
 
-@media screen and (max-width: 35em) { .flexbox .home-graphic-container { flex-direction: column; }
+@media screen and (max-width: 35em) { .flexbox .home-graphic-container { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   .flexbox .home-graphic { margin: .5em 0; }
   .no-flebox .home-graphic { float: none; margin: 0.5em auto; } }
-
 /*# sourceMappingURL=style.css.map */

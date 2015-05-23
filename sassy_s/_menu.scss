@@ -42,7 +42,7 @@ $menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			// link hover
 			&:hover {
                 background-color: $menu-hover-color;
-                
+
 				> a { }
 				> ul { display: block; }
 			}
@@ -69,15 +69,24 @@ $menu-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 
 			li {
                 background-color: $link-color;
-                
+
 				a {
 					width: 200px;
                     padding: ( $vspacing / 2 ) $vspacing;
 					&:hover {};
 				}
-                
+
                 &:hover {
                     background-color: $menu-hover-color;
+                }
+
+                &.page_item_has_children::after {
+                    content: "\0a\bb";
+                    position: absolute;
+                    top: .55em;
+                    right: .5em;
+                    font-size: 18px;
+                    color: white;
                 }
 			}
 
