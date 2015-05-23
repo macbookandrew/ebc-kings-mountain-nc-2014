@@ -13,10 +13,6 @@
 get_header(); ?>
 
 
-<div id="content" class="site-content no-thumbnail">
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
-
 <article class="error-404 not-found">
 	<header class="entry-header" aria-hidden="false">
         <h1 class="entry-title">Not Found</h1>

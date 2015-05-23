@@ -6,18 +6,6 @@
  */
 ?>
 
-<?php
-    if ( has_post_thumbnail() ) {
-        if ( is_front_page() ) { the_post_thumbnail( 'page_header_tall' ); }
-        else { the_post_thumbnail( 'page_header' ); }
-        $thumbnail_test = NULL;
-    }
-    else { $thumbnail_test = 'no-thumbnail'; }
-?>
-<div id="content" class="site-content <?php echo $thumbnail_test; ?>">
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header<?php if ( is_front_page() ) { echo ' visually-hidden'; } ?>" aria-hidden="false">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
