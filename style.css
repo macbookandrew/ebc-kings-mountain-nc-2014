@@ -179,9 +179,9 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 
 .site-footer a { color: white; }
 
-@media (min-width: 57em) { .page-template-default .content-area, .error404 .content-area, .archive .content-area { float: left; margin: 0 -25% 0 0; padding-right: 1em; width: 100%; }
-  .page-template-default .site-main, .error404 .site-main, .archive .site-main { margin: 0 25% 0 0; }
-  .page-template-default .site-content .widget-area, .error404 .site-content .widget-area, .archive .site-content .widget-area { /* Sidebar 1 */ float: right; overflow: hidden; padding-left: 1em; width: 25%; } }
+@media (min-width: 57em) { .page-template-default .content-area, .error404 .content-area, .archive .content-area, .single-wpfc_sermon .content-area { float: left; margin: 0 -25% 0 0; padding-right: 1em; width: 100%; }
+  .page-template-default .site-main, .error404 .site-main, .archive .site-main, .single-wpfc_sermon .site-main { margin: 0 25% 0 0; }
+  .page-template-default .site-content .widget-area, .error404 .site-content .widget-area, .archive .site-content .widget-area, .single-wpfc_sermon .site-content .widget-area { /* Sidebar 1 */ float: right; overflow: hidden; padding-left: 1em; width: 25%; } }
 
 .flexbox .page-template-page-full-width-php .widget-area, .flexbox-legacy .page-template-page-full-width-php .widget-area { display: flex; }
 
