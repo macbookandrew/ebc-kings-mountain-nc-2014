@@ -59,6 +59,9 @@ get_header(); ?>
 						elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
 							_e( 'Chats', 'ebckm-2014' );
 
+						elseif ( is_post_type_archive( 'wpfc_sermon' ) ) :
+							_e( 'Sermon Archives', 'ebckm-2014' );
+
 						else :
 							_e( 'Archives', 'ebckm-2014' );
 
