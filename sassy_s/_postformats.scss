@@ -2,7 +2,12 @@
 ----------------------------------------------- */
 
 .blog .format-aside, .archive .format-aside {
-	.entry-title {
-		display: none;
-	}
+    .entry-title {
+        display: none;
+    }
+}
+
+.single-wpfc_sermon .entry-meta,
+.single-wpfc_sermon footer.entry-footer {
+    display: none;
 }
