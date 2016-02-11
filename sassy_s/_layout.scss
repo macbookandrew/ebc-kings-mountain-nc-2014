@@ -80,22 +80,22 @@ body:hover .visually-hidden button {
 
 // Layout: Sidebar-Content
 @else if $layout == sidebar-content {
-	.content-area {
-		float: right;
-		margin: 0 0 0 -25%;
-		width: 100%;
-	}
-	.site-main { margin: 0 0 0 25%; }
-	.site-content .widget-area { /* Sidebar 1 */
-		float: left;
-		overflow: hidden;
-		width: 25%;
-	}
+    .content-area {
+        float: right;
+        margin: 0 0 0 -25%;
+        width: 100%;
+    }
+    .site-main { margin: 0 0 0 25%; }
+    .site-content .widget-area { /* Sidebar 1 */
+        float: left;
+        overflow: hidden;
+        width: 25%;
+    }
 }
 
 @if $layout != null {
-	.site-footer {
-		clear: both;
-		width: 100%;
-	}
+    .site-footer {
+        clear: both;
+        width: 100%;
+    }
 }
