@@ -42,7 +42,7 @@ body:hover .visually-hidden button {
 // Layout: Content-Sidebar
 @if $layout == content-sidebar {
     @media (min-width: 57em) {
-        .page-template-default, .error404, .archive, .single-wpfc_sermon, .single  {
+        .page-template-default, .error404, .archive, .single-wpfc_sermon, .single {
             .content-area {
                 float: left;
                 margin: 0 -25% 0 0;
