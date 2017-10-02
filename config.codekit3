@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.git-ftp-include": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.git-ftp-include",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
