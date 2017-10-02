@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/.git-ftp-include": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.git-ftp-include",
-		"oF": 0
-		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -563,19 +557,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/_infinitescroll.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sassy_s\/_layout.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 5,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
