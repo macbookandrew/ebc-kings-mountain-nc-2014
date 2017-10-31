@@ -138,6 +138,8 @@ require get_template_directory() . '/inc/jetpack.php';
 add_image_size( 'page_header', '2400', '400' );
 add_image_size( 'page_header_tall', '2400', '800' );
 add_image_size( 'home_quick_link', '600', '600' );
+add_image_size( 'opengraph', 1200, 630, true );
+add_image_size( 'opengraph-m', 1800, 945, true );
 
 /**
  * Use full-size sermon category image instead of letting it pick up the 75x75 image from the page content
@@ -147,7 +149,7 @@ add_image_size( 'home_quick_link', '600', '600' );
 function ebc_sermon_opengraph_images( $image ) {
     if ( is_singular( 'wpfc_sermon' ) ) {
         ob_start();
-        render_sermon_image( 'full' );
+        render_sermon_image( 'opengraph-m' );
         $thumbnail_html = ob_get_clean();
 
         preg_match( '/src="(.+?)"/', $thumbnail_html, $thumbnail_url );
