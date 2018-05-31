@@ -785,6 +785,16 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/sassy_s\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sassy_s\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/sassy_s\/style.scss": {
 		"aP": 1,
 		"bl": 0,
