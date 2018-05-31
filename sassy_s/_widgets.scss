@@ -16,4 +16,16 @@
 
 }
 
+.widget_recent_sermons {
+	ul {
+		list-style-type: none;
+		margin: 0;
 
+		.dashicons-microphone { text-decoration: none; }
+
+		.meta {
+			display: block;
+			font-size: 85%;
+		}
+	}
+}
