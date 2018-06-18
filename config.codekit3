@@ -7,7 +7,7 @@
 		"uuidString": "90076986-60E5-40F5-B71C-AB32FCB5765C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.git-ftp-include": {
 		"cB": 0,
@@ -866,7 +866,8 @@
 	"creationDate": 528644659,
 	"displayValue": "EBC Kings Mountain, NC",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-jake"
+	"iconImageName": "meme-jake",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2669,6 +2670,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
