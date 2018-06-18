@@ -157,3 +157,26 @@ function ebc_sermon_opengraph_images( $image ) {
     }
 }
 add_action( 'wpseo_add_opengraph_images', 'ebc_sermon_opengraph_images' );
+
+/**
+ * Modify sermon content that will be saved into post_content field and used for og:description.
+ *
+ * Add pipe separator before sermon description if it is not empty.
+ *
+ * @param string  $content    Textual content (no HTML).
+ * @param int     $post_ID    ID of the sermon.
+ * @param WP_Post $post       Sermon post object.
+ * @param bool    $skip_check Basically, a way to identify if the function is being executed from the update function or not.
+ *
+ * @return string Textual content.
+ */
+function ebc_tweak_sermon_og_description( string $content, int $post_ID, WP_Post $post, bool $skip_check ) : string {
+	$description = strip_tags( trim( get_post_meta( $post->ID, 'sermon_description', true ) ) );
+
+	if ( ! empty( $description ) ) {
+		$content = str_replace( PHP_EOL . PHP_EOL, ' | ', $content );
+	}
+
+	return $content;
+}
+add_filter( 'sm_sermon_post_content', 'ebc_tweak_sermon_og_description' );
