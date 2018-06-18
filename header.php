@@ -19,12 +19,12 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'ebckm-2014' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ebckm-2014' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/EBC-logo.svg" alt="Emmanuel Baptist Church Logo" title="Emmanuel Baptist Church" /></a>
-			<button class="menu-toggle"><?php _e( 'Main Menu', 'ebckm-2014' ); ?></button>
+			<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/EBC-logo.svg" alt="Emmanuel Baptist Church Logo" title="Emmanuel Baptist Church" /></a>
+			<button class="menu-toggle"><?php esc_html_e( 'Main Menu', 'ebckm-2014' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
@@ -38,11 +38,11 @@ if ( has_post_thumbnail() ) {
 		<?php
 		} else {
 			the_post_thumbnail( 'page_header' ); }
-		$thumbnail_test = null;
+		$thumbnail_test = '';
 } else {
 	$thumbnail_test = 'no-thumbnail'; }
 ?>
-<div id="content" class="site-content <?php echo $thumbnail_test; ?>">
+<div id="content" class="site-content <?php echo esc_attr( $thumbnail_test ); ?>">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

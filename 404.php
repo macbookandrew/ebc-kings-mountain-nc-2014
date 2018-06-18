@@ -19,7 +19,7 @@ get_header(); ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'ebckm-2014' ); ?></p>
+		<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'ebckm-2014' ); ?></p>
 
 		<?php get_search_form(); ?>
 

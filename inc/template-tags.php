@@ -18,15 +18,15 @@ if ( ! function_exists( 'ebckm_2014_paging_nav' ) ) :
 		}
 		?>
 		<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'ebckm-2014' ); ?></h1>
+		<h1 class="screen-reader-text"><?php esc_html_e( 'Posts navigation', 'ebckm-2014' ); ?></h1>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'ebckm-2014' ) ); ?></div>
+			<div class="nav-previous"><?php next_posts_link( esc_html__( '<span class="meta-nav">&larr;</span> Older posts', 'ebckm-2014' ) ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'ebckm-2014' ) ); ?></div>
+			<div class="nav-next"><?php previous_posts_link( esc_html__( 'Newer posts <span class="meta-nav">&rarr;</span>', 'ebckm-2014' ) ); ?></div>
 			<?php endif; ?>
 
 		</div><!-- .nav-links -->
@@ -49,7 +49,7 @@ if ( ! function_exists( 'ebckm_2014_post_nav' ) ) :
 		}
 		?>
 		<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'ebckm-2014' ); ?></h1>
+		<h1 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'ebckm-2014' ); ?></h1>
 		<div class="nav-links">
 			<?php
 				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'ebckm-2014' ) );
@@ -89,7 +89,7 @@ if ( ! function_exists( 'ebckm_2014_posted_on' ) ) :
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
-		echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+		echo '<span class="posted-on">' . wp_kses_post( $posted_on ) . '</span><span class="byline"> ' . wp_kses_post( $byline ) . '</span>';
 
 	}
 endif;
@@ -100,7 +100,9 @@ endif;
  * @return bool
  */
 function ebckm_2014_categorized_blog() {
-	if ( false === ( $all_the_cool_cats = get_transient( 'ebckm_2014_categories' ) ) ) {
+	$all_the_cool_cats = get_transient( 'ebckm_2014_categories' );
+
+	if ( false === $all_the_cool_cats ) {
 		// Create an array of all the categories that are attached to posts.
 		$all_the_cool_cats = get_categories(
 			array(

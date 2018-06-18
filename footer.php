@@ -17,23 +17,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'ebckm-2014' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'ebckm-2014' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( esc_html__( 'http://wordpress.org/', 'ebckm-2014' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'ebckm-2014' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'ebckm-2014' ), 'EBC Kings Mountain, NC', '<a href="http://andrewrminion.com/" rel="designer">AndrewRMinion Design</a>' ); ?>
+			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'ebckm-2014' ), 'EBC Kings Mountain, NC', '<a href="http://andrewrminion.com/" rel="designer">AndrewRMinion Design</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
-
-<script src="<?php echo get_template_directory_uri(); ?>/js/stickUp.min.js"></script>
-
-<script type="text/javascript">
-  jQuery(function($) {
-	$(document).ready( function() {
-	  $('.site-header').stickUp();
-	});
-  });
-
-</script>
 
 <?php wp_footer(); ?>
 

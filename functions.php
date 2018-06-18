@@ -5,6 +5,8 @@
  * @package EBC Kings Mountain, NC
  */
 
+define( 'EBC_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
@@ -42,7 +44,7 @@ if ( ! function_exists( 'ebckm_2014_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary' => __( 'Primary Menu', 'ebckm-2014' ),
+				'primary' => esc_html__( 'Primary Menu', 'ebckm-2014' ),
 			)
 		);
 
@@ -95,7 +97,7 @@ add_action( 'after_setup_theme', 'ebckm_2014_setup' );
 function ebckm_2014_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => __( 'Sidebar', 'ebckm-2014' ),
+			'name'          => esc_html__( 'Sidebar', 'ebckm-2014' ),
 			'id'            => 'sidebar-1',
 			'description'   => '',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -112,11 +114,17 @@ add_action( 'widgets_init', 'ebckm_2014_widgets_init' );
  */
 function ebckm_2014_scripts() {
 	wp_enqueue_style( 'webfonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Slabo+13px' );
-	wp_enqueue_style( 'ebckm-2014-style', get_stylesheet_directory_uri() . '/style.min.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'ebckm-2014-style', get_stylesheet_directory_uri() . '/style.min.css', array(), EBC_THEME_VERSION );
 
-	wp_enqueue_script( 'ebckm-2014-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'ebckm-2014-navigation', get_template_directory_uri() . '/js/navigation.js', array(), EBC_THEME_VERSION, true );
 
-	wp_enqueue_script( 'ebckm-2014-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	$stickup = '$(document).ready( function() {
+	  $(".site-header").stickUp();
+	});';
+	wp_enqueue_script( 'stick-up', get_template_directory_uri() . '/js/stickUp.min.js', array( 'jquery' ), EBC_THEME_VERSION, true );
+	wp_add_inline_script( 'stick-up', $stickup, 'after' );
+
+	wp_enqueue_script( 'ebckm-2014-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), EBC_THEME_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

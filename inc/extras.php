@@ -60,7 +60,7 @@ function ebckm_2014_wp_title( $title, $sep ) {
 
 	// Add a page number if necessary:
 	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-		$title .= " $sep " . sprintf( __( 'Page %s', 'ebckm-2014' ), max( $paged, $page ) );
+		$title .= " $sep " . sprintf( esc_html__( 'Page %s', 'ebckm-2014' ), max( $paged, $page ) );
 	}
 
 	return $title;
