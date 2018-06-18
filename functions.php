@@ -195,36 +195,10 @@ add_action( 'wpseo_add_opengraph_images', 'ebc_sermon_opengraph_images' );
  * @return string Textual content.
  */
 function ebc_tweak_sermon_og_description( string $content, int $post_ID, WP_Post $post, bool $skip_check ) : string {
-	$post          = get_post( $post_ID );
-	$content       = '';
-	$bible_passage = get_post_meta( $post_ID, 'bible_passage', true );
-	$has_preachers = has_term( '', 'wpfc_preacher', $post );
-	$has_series    = has_term( '', 'wpfc_sermon_series', $post );
-
-	if ( $bible_passage ) {
-		$content .= __( 'Bible Text:', 'sermon-manager-for-wordpress' ) . ' ' . $bible_passage;
-	}
-
-	if ( $has_preachers ) {
-		if ( $bible_passage ) {
-			$content .= ' | ';
-		}
-
-		$content .= ( \SermonManager::getOption( 'preacher_label', '' ) ? \SermonManager::getOption( 'preacher_label', 'Preacher' ) . ':' : __( 'Preacher:', 'sermon-manager-for-wordpress' ) ) . ' ';
-		$content .= strip_tags( get_the_term_list( $post->ID, 'wpfc_preacher', '', ', ', '' ) );
-	}
-
-	if ( $has_series ) {
-		if ( $has_preachers ) {
-			$content .= ' | ';
-		}
-		$content .= strip_tags( get_the_term_list( $post->ID, 'wpfc_sermon_series', __( 'Series:', 'sermon-manager-for-wordpress' ) . ' ', ', ', '' ) );
-	}
-
 	$description = strip_tags( trim( get_post_meta( $post->ID, 'sermon_description', true ) ) );
 
-	if ( '' !== $description ) {
-		$content .= ' | ' . $description;
+	if ( ! empty( $description ) ) {
+		$content .= str_replace( PHP_EOL . PHP_EOL, ' | ', $description );
 	}
 
 	return $content;
