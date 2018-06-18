@@ -38,7 +38,7 @@
 		 Multiple valid text domains can be provided as a comma-delimited list. -->
 	<rule ref="WordPress.WP.I18n">
 		<properties>
-			<property name="text_domain" type="array" value="ebckm-2014" />
+			<property name="text_domain" type="array" value="ebckm-2014,sermon-manager-for-wordpress" />
 		</properties>
 	</rule>
 
