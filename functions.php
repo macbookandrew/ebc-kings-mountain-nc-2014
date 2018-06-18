@@ -7,6 +7,8 @@
 
 define( 'EBC_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
+require 'functions-soundboard.php';
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
