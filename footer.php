@@ -11,7 +11,7 @@
 		</main><!-- #main.site-main -->
 	</div><!-- #primary.content-area -->
 
-    <?php get_sidebar(); ?>
+	<?php get_sidebar(); ?>
 
 	</div><!-- #content.site-content -->
 
@@ -28,9 +28,9 @@
 
 <script type="text/javascript">
   jQuery(function($) {
-    $(document).ready( function() {
-      $('.site-header').stickUp();
-    });
+	$(document).ready( function() {
+	  $('.site-header').stickUp();
+	});
   });
 
 </script>

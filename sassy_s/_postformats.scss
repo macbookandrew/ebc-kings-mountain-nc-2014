@@ -2,14 +2,14 @@
 ----------------------------------------------- */
 
 .blog .format-aside, .archive .format-aside {
-    .entry-title {
-        display: none;
-    }
+	.entry-title {
+		display: none;
+	}
 }
 
 .single-wpfc_sermon .entry-meta,
 .single-wpfc_sermon footer.entry-footer {
-    display: none;
+	display: none;
 }
 
 .wpfc_sermon #wpfc_sermon_wrap {
@@ -17,14 +17,14 @@
 }
 
 .wpfc_sermon_image {
-    float: left;
-    margin-right: 1em;
+	float: left;
+	margin-right: 1em;
 }
 
 .wpfc_sermon_meta p {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .wpfc_sermon_wrap {
-    margin-bottom: 2em;
+	margin-bottom: 2em;
 }

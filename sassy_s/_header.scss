@@ -1,25 +1,25 @@
 // header
 .site-header {
-    background-color: $link-color;
+	background-color: $link-color;
 
-    @media (min-width: 42em) {
-        position: fixed;
-        width: 100%;
-    }
+	@media (min-width: 42em) {
+		position: fixed;
+		width: 100%;
+	}
 }
 
 .attachment-page_header,
 .attachment-page_header_tall {
-    margin-bottom: -.5em;
+	margin-bottom: -.5em;
 
-    @media (min-width: 70em)                       { padding-top: 5em; }
-    @media (min-width: 42em) and (max-width: 69em) { padding-top: 7em; }
+	@media (min-width: 70em)                       { padding-top: 5em; }
+	@media (min-width: 42em) and (max-width: 69em) { padding-top: 7em; }
 
 }
 
 .no-thumbnail {
-    #primary, #secondary {
-        @media (min-width: 70em)                        { margin-top: 5em; }
-        @media (min-width: 42em ) and (max-width: 69em) { margin-top: 7em; }
-    }
+	#primary, #secondary {
+		@media (min-width: 70em)                        { margin-top: 5em; }
+		@media (min-width: 42em ) and (max-width: 69em) { margin-top: 7em; }
+	}
 }

@@ -23,24 +23,26 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-            <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/EBC-logo.svg" alt="Emmanuel Baptist Church Logo" title="Emmanuel Baptist Church" /></a>
+			<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/EBC-logo.svg" alt="Emmanuel Baptist Church Logo" title="Emmanuel Baptist Church" /></a>
 			<button class="menu-toggle"><?php _e( 'Main Menu', 'ebckm-2014' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 <?php
-    if ( has_post_thumbnail() ) {
-        if ( is_front_page() ) { the_post_thumbnail( 'page_header_tall' ); }
-        elseif ( is_post_type_archive( 'wpfc_sermon' ) ) { ?>
-            <img width="2400" height="400" src="http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons.jpg" class="attachment-page_header wp-post-image" alt="Ministries" sizes="(max-width: 2400px) 100vw, 2400px" srcset="http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-300x50.jpg 300w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-1024x171.jpg 1024w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-250x42.jpg 250w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-2400x400.jpg 2400w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-600x100.jpg 600w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons.jpg 2400w">
-        <?php }
-        else { the_post_thumbnail( 'page_header' ); }
-        $thumbnail_test = NULL;
-    }
-    else { $thumbnail_test = 'no-thumbnail'; }
+if ( has_post_thumbnail() ) {
+	if ( is_front_page() ) {
+		the_post_thumbnail( 'page_header_tall' ); } elseif ( is_post_type_archive( 'wpfc_sermon' ) ) {
+		?>
+			<img width="2400" height="400" src="http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons.jpg" class="attachment-page_header wp-post-image" alt="Ministries" sizes="(max-width: 2400px) 100vw, 2400px" srcset="http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-300x50.jpg 300w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-1024x171.jpg 1024w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-250x42.jpg 250w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-2400x400.jpg 2400w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons-600x100.jpg 600w, http://ebckingsmountain.com/wp-content/uploads/2015/05/Sermons.jpg 2400w">
+		<?php
+		} else {
+			the_post_thumbnail( 'page_header' ); }
+		$thumbnail_test = null;
+} else {
+	$thumbnail_test = 'no-thumbnail'; }
 ?>
 <div id="content" class="site-content <?php echo $thumbnail_test; ?>">
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
 

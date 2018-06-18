@@ -10,7 +10,6 @@
 		<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
 	</a>
 	<?php endif; // End header image check. ?>
-
  *
  * @package EBC Kings Mountain, NC
  */
@@ -23,38 +22,42 @@
  * @uses ebckm_2014_admin_header_image()
  */
 function ebckm_2014_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'ebckm_2014_custom_header_args', array(
-		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
-		'wp-head-callback'       => 'ebckm_2014_header_style',
-		'admin-head-callback'    => 'ebckm_2014_admin_header_style',
-		'admin-preview-callback' => 'ebckm_2014_admin_header_image',
-	) ) );
+	add_theme_support(
+		'custom-header', apply_filters(
+			'ebckm_2014_custom_header_args', array(
+				'default-image'          => '',
+				'default-text-color'     => '000000',
+				'width'                  => 1000,
+				'height'                 => 250,
+				'flex-height'            => true,
+				'wp-head-callback'       => 'ebckm_2014_header_style',
+				'admin-head-callback'    => 'ebckm_2014_admin_header_style',
+				'admin-preview-callback' => 'ebckm_2014_admin_header_image',
+			)
+		)
+	);
 }
 add_action( 'after_setup_theme', 'ebckm_2014_custom_header_setup' );
 
 if ( ! function_exists( 'ebckm_2014_header_style' ) ) :
-/**
- * Styles the header image and text displayed on the blog
- *
- * @see ebckm_2014_custom_header_setup().
- */
-function ebckm_2014_header_style() {
-	$header_text_color = get_header_textcolor();
+	/**
+	 * Styles the header image and text displayed on the blog
+	 *
+	 * @see ebckm_2014_custom_header_setup().
+	 */
+	function ebckm_2014_header_style() {
+		$header_text_color = get_header_textcolor();
 
-	// If no custom options for text are set, let's bail
-	// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value
-	if ( HEADER_TEXTCOLOR == $header_text_color ) {
-		return;
-	}
+		// If no custom options for text are set, let's bail
+		// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value
+		if ( HEADER_TEXTCOLOR == $header_text_color ) {
+			return;
+		}
 
-	// If we get this far, we have custom styles. Let's do this.
-	?>
-	<style type="text/css">
-	<?php
+		// If we get this far, we have custom styles. Let's do this.
+		?>
+		<style type="text/css">
+		<?php
 		// Has the text been hidden?
 		if ( 'blank' == $header_text_color ) :
 	?>
@@ -74,17 +77,17 @@ function ebckm_2014_header_style() {
 	<?php endif; ?>
 	</style>
 	<?php
-}
+	}
 endif; // ebckm_2014_header_style
 
 if ( ! function_exists( 'ebckm_2014_admin_header_style' ) ) :
-/**
- * Styles the header image displayed on the Appearance > Header admin panel.
- *
- * @see ebckm_2014_custom_header_setup().
- */
-function ebckm_2014_admin_header_style() {
-?>
+	/**
+	 * Styles the header image displayed on the Appearance > Header admin panel.
+	 *
+	 * @see ebckm_2014_custom_header_setup().
+	 */
+	function ebckm_2014_admin_header_style() {
+	?>
 	<style type="text/css">
 		.appearance_page_custom-header #headimg {
 			border: none;
@@ -101,19 +104,19 @@ function ebckm_2014_admin_header_style() {
 		#headimg img {
 		}
 	</style>
-<?php
-}
+	<?php
+	}
 endif; // ebckm_2014_admin_header_style
 
 if ( ! function_exists( 'ebckm_2014_admin_header_image' ) ) :
-/**
- * Custom header image markup displayed on the Appearance > Header admin panel.
- *
- * @see ebckm_2014_custom_header_setup().
- */
-function ebckm_2014_admin_header_image() {
-	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
-?>
+	/**
+	 * Custom header image markup displayed on the Appearance > Header admin panel.
+	 *
+	 * @see ebckm_2014_custom_header_setup().
+	 */
+	function ebckm_2014_admin_header_image() {
+		$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
+	?>
 	<div id="headimg">
 		<h1 class="displaying-header-text"><a id="name"<?php echo $style; ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 		<div class="displaying-header-text" id="desc"<?php echo $style; ?>><?php bloginfo( 'description' ); ?></div>
@@ -122,5 +125,5 @@ function ebckm_2014_admin_header_image() {
 		<?php endif; ?>
 	</div>
 <?php
-}
+	}
 endif; // ebckm_2014_admin_header_image

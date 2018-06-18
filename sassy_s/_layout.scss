@@ -1,106 +1,106 @@
 .visually-hidden {
-    /* from http://developer.yahoo.com/blogs/ydn/posts/2012/10/clip-your-hidden-content-for-better-accessibility/ */
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    padding:0 !important;
-    border:0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
+	/* from http://developer.yahoo.com/blogs/ydn/posts/2012/10/clip-your-hidden-content-for-better-accessibility/ */
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
 }
 
 body:hover .visually-hidden a,
 body:hover .visually-hidden input,
 body:hover .visually-hidden button {
-    display: none !important;
+	display: none !important;
 }
 
 // main page layout
 .full-width {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: $vspacing;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: $vspacing;
 }
 
 .main-navigation,
 .site-content {
-    @extend .full-width;
-    background-color: $body-color;
+	@extend .full-width;
+	background-color: $body-color;
 }
 
 .site-footer {
-    @extend .full-width;
-    background-color: $link-color;
-    color: white;
-    text-align: center;
+	@extend .full-width;
+	background-color: $link-color;
+	color: white;
+	text-align: center;
 
-    a { color: white; }
+	a { color: white; }
 }
 
 // Layout: Content-Sidebar
 @if $layout == content-sidebar {
-    @media (min-width: 57em) {
-        .page-template-default, .error404, .archive, .single-wpfc_sermon, .single {
-            .content-area {
-                float: left;
-                margin: 0 -25% 0 0;
-                padding-right: 1em;
-                width: 100%;
-            }
-            .site-main { margin: 0 25% 0 0; }
-            .site-content .widget-area { /* Sidebar 1 */
-                float: right;
-                overflow: hidden;
-                padding-left: 1em;
-                width: 25%;
-            }
-        }
-    }
-    .page-template-page-full-width-php {
-        .widget-area {
-            .flexbox &, .flexbox-legacy & {
-                display: flex;
-                @media (min-width: 42em) { justify-content: space-around; }
-                @media (max-width: 41em) { flex-wrap: wrap; }
-            }
-        }
-        .widget {
-            padding: $vspacing;
+	@media (min-width: 57em) {
+		.page-template-default, .error404, .archive, .single-wpfc_sermon, .single {
+			.content-area {
+				float: left;
+				margin: 0 -25% 0 0;
+				padding-right: 1em;
+				width: 100%;
+			}
+			.site-main { margin: 0 25% 0 0; }
+			.site-content .widget-area { /* Sidebar 1 */
+				float: right;
+				overflow: hidden;
+				padding-left: 1em;
+				width: 25%;
+			}
+		}
+	}
+	.page-template-page-full-width-php {
+		.widget-area {
+			.flexbox &, .flexbox-legacy & {
+				display: flex;
+				@media (min-width: 42em) { justify-content: space-around; }
+				@media (max-width: 41em) { flex-wrap: wrap; }
+			}
+		}
+		.widget {
+			padding: $vspacing;
 
-            .flexbox &, .flexbox-legacy & {}
+			.flexbox &, .flexbox-legacy & {}
 
-            .no-flexbox & {
-                float: left;
-            }
-        }
-    }
+			.no-flexbox & {
+				float: left;
+			}
+		}
+	}
 }
 
 // Layout: Sidebar-Content
 @else if $layout == sidebar-content {
-    .content-area {
-        float: right;
-        margin: 0 0 0 -25%;
-        width: 100%;
-    }
-    .site-main { margin: 0 0 0 25%; }
-    .site-content .widget-area { /* Sidebar 1 */
-        float: left;
-        overflow: hidden;
-        width: 25%;
-    }
+	.content-area {
+		float: right;
+		margin: 0 0 0 -25%;
+		width: 100%;
+	}
+	.site-main { margin: 0 0 0 25%; }
+	.site-content .widget-area { /* Sidebar 1 */
+		float: left;
+		overflow: hidden;
+		width: 25%;
+	}
 }
 
 @if $layout != null {
-    .site-footer {
-        clear: both;
-        width: 100%;
-    }
+	.site-footer {
+		clear: both;
+		width: 100%;
+	}
 }
 
 .home #wpYouTubeLive {
-    display: block;
-    margin: 0 auto 1em;
+	display: block;
+	margin: 0 auto 1em;
 }

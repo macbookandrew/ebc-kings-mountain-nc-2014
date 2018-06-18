@@ -4,20 +4,27 @@
  *
  * @package EBC Kings Mountain, NC
  */
+
+if ( is_front_page() ) {
+	$header_class = ' visually-hidden';
+}
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header<?php if ( is_front_page() ) { echo ' visually-hidden'; } ?>" aria-hidden="false">
+	<header class="entry-header<?php echo esc_attr( $header_class ); ?>" aria-hidden="false">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'ebckm-2014' ),
-				'after'  => '</div>',
-			) );
+			wp_link_pages(
+				array(
+					'before' => '<div class="page-links">' . __( 'Pages:', 'ebckm-2014' ),
+					'after'  => '</div>',
+				)
+			);
 		?>
 	</div><!-- .entry-content -->
 	<footer class="entry-footer">

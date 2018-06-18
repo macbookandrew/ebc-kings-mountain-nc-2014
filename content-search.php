@@ -28,20 +28,20 @@
 			<?php
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'ebckm-2014' ) );
-				if ( $categories_list && ebckm_2014_categorized_blog() ) :
+			if ( $categories_list && ebckm_2014_categorized_blog() ) :
 			?>
 			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'ebckm-2014' ), $categories_list ); ?>
+			<?php printf( __( 'Posted in %1$s', 'ebckm-2014' ), $categories_list ); ?>
 			</span>
 			<?php endif; // End if categories ?>
 
 			<?php
 				/* translators: used between list items, there is a space after the comma */
 				$tags_list = get_the_tag_list( '', __( ', ', 'ebckm-2014' ) );
-				if ( $tags_list ) :
+			if ( $tags_list ) :
 			?>
 			<span class="tags-links">
-				<?php printf( __( 'Tagged %1$s', 'ebckm-2014' ), $tags_list ); ?>
+			<?php printf( __( 'Tagged %1$s', 'ebckm-2014' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
