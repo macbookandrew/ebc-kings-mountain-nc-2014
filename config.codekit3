@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.editorconfig",
+		"oF": 0
+		},
 	"\/.git-ftp-include": {
 		"cB": 0,
 		"ft": 8192,
@@ -91,6 +98,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/functions-soundboard.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions-soundboard.php",
 		"oF": 0
 		},
 	"\/functions.php": {
@@ -235,6 +249,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
+		"oF": 0
+		},
+	"\/phpcs.xml.dist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/phpcs.xml.dist",
 		"oF": 0
 		},
 	"\/quick-links-styles.css": {
@@ -719,6 +740,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sassy_s\/_sermons.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/_sermons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
