@@ -120,12 +120,6 @@ function ebckm_2014_scripts() {
 
 	wp_enqueue_script( 'ebckm-2014-navigation', get_template_directory_uri() . '/js/navigation.js', array(), EBC_THEME_VERSION, true );
 
-	$stickup = '$(document).ready( function() {
-	  $(".site-header").stickUp();
-	});';
-	wp_enqueue_script( 'stick-up', get_template_directory_uri() . '/js/stickUp.min.js', array( 'jquery' ), EBC_THEME_VERSION, true );
-	wp_add_inline_script( 'stick-up', $stickup, 'after' );
-
 	wp_enqueue_script( 'ebckm-2014-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), EBC_THEME_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
