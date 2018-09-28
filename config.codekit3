@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,275 +7,275 @@
 		"uuidString": "90076986-60E5-40F5-B71C-AB32FCB5765C"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28901",
 "files": {
-	"\/.editorconfig": {
+	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.editorconfig",
+		"oAP": "/.editorconfig",
 		"oF": 0
 		},
-	"\/.git-ftp-include": {
+	"/.git-ftp-include": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.git-ftp-include",
+		"oAP": "/.git-ftp-include",
 		"oF": 0
 		},
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/404.php": {
+	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/404.php",
+		"oAP": "/404.php",
 		"oF": 0
 		},
-	"\/archive.php": {
+	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/archive.php",
+		"oAP": "/archive.php",
 		"oF": 0
 		},
-	"\/assets\/Easy.ase": {
+	"/assets/Easy.ase": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/Easy.ase",
+		"oAP": "/assets/Easy.ase",
 		"oF": 0
 		},
-	"\/comments.php": {
+	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/comments.php",
+		"oAP": "/comments.php",
 		"oF": 0
 		},
-	"\/content-none.php": {
+	"/content-none.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content-none.php",
+		"oAP": "/content-none.php",
 		"oF": 0
 		},
-	"\/content-page.php": {
+	"/content-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content-page.php",
+		"oAP": "/content-page.php",
 		"oF": 0
 		},
-	"\/content-search.php": {
+	"/content-search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content-search.php",
+		"oAP": "/content-search.php",
 		"oF": 0
 		},
-	"\/content-single.php": {
+	"/content-single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content-single.php",
+		"oAP": "/content-single.php",
 		"oF": 0
 		},
-	"\/content.php": {
+	"/content.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/content.php",
+		"oAP": "/content.php",
 		"oF": 0
 		},
-	"\/footer.php": {
+	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/footer.php",
+		"oAP": "/footer.php",
 		"oF": 0
 		},
-	"\/functions-soundboard.php": {
+	"/functions-soundboard.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/functions-soundboard.php",
+		"oAP": "/functions-soundboard.php",
 		"oF": 0
 		},
-	"\/functions.php": {
+	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/functions.php",
+		"oAP": "/functions.php",
 		"oF": 0
 		},
-	"\/header.php": {
+	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/header.php",
+		"oAP": "/header.php",
 		"oF": 0
 		},
-	"\/images\/EBC-logo.svg": {
+	"/images/EBC-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/EBC-logo.svg",
+		"oAP": "/images/EBC-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/inc\/custom-header.php": {
+	"/inc/custom-header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/custom-header.php",
+		"oAP": "/inc/custom-header.php",
 		"oF": 0
 		},
-	"\/inc\/customizer.php": {
+	"/inc/customizer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/customizer.php",
+		"oAP": "/inc/customizer.php",
 		"oF": 0
 		},
-	"\/inc\/extras.php": {
+	"/inc/extras.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/extras.php",
+		"oAP": "/inc/extras.php",
 		"oF": 0
 		},
-	"\/inc\/jetpack.php": {
+	"/inc/jetpack.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/jetpack.php",
+		"oAP": "/inc/jetpack.php",
 		"oF": 0
 		},
-	"\/inc\/template-tags.php": {
+	"/inc/template-tags.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/inc\/template-tags.php",
+		"oAP": "/inc/template-tags.php",
 		"oF": 0
 		},
-	"\/index.php": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.php",
+		"oAP": "/index.php",
 		"oF": 0
 		},
-	"\/js\/customizer.js": {
+	"/js/customizer.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/customizer-min.js",
+		"oAP": "/js/min/customizer-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/navigation.js": {
+	"/js/navigation.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/navigation-min.js",
+		"oAP": "/js/min/navigation-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/skip-link-focus-fix.js": {
+	"/js/skip-link-focus-fix.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/skip-link-focus-fix-min.js",
+		"oAP": "/js/min/skip-link-focus-fix-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/languages\/ebckm-2014.pot": {
+	"/languages/ebckm-2014.pot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/languages\/ebckm-2014.pot",
+		"oAP": "/languages/ebckm-2014.pot",
 		"oF": 0
 		},
-	"\/languages\/readme.txt": {
+	"/languages/readme.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/languages\/readme.txt",
+		"oAP": "/languages/readme.txt",
 		"oF": 0
 		},
-	"\/layouts\/content-sidebar.css": {
+	"/layouts/content-sidebar.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/layouts\/content-sidebar-min.css",
+		"oAP": "/layouts/content-sidebar-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/layouts\/sidebar-content.css": {
+	"/layouts/sidebar-content.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/layouts\/sidebar-content-min.css",
+		"oAP": "/layouts/sidebar-content-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/page-full-width.php": {
+	"/page-full-width.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-full-width.php",
+		"oAP": "/page-full-width.php",
 		"oF": 0
 		},
-	"\/page.php": {
+	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page.php",
+		"oAP": "/page.php",
 		"oF": 0
 		},
-	"\/phpcs.xml.dist": {
+	"/phpcs.xml.dist": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/phpcs.xml.dist",
+		"oAP": "/phpcs.xml.dist",
 		"oF": 0
 		},
-	"\/quick-links-styles.css": {
+	"/quick-links-styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/quick-links-styles-min.css",
+		"oAP": "/quick-links-styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/quick-links-styles.css.map": {
+	"/quick-links-styles.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/quick-links-styles.css.map",
+		"oAP": "/quick-links-styles.css.map",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -284,7 +284,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -293,276 +293,276 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/rtl.css": {
+	"/rtl.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/rtl-min.css",
+		"oAP": "/rtl-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_comments.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_comments.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_comments.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_comments.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_content.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_content.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_content.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_content.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_forms.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_forms.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_forms.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_forms.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_global.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_global.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_global.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_global.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_header.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_header.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_header.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_header.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_infinitescroll.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_infinitescroll.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_infinitescroll.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_infinitescroll.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_layout.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_layout.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_layout.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_layout.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_layout_home.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_layout_home.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_layout_home.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_layout_home.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_media.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_media.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_media.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_media.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_menu.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_menu.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_menu.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_menu.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_mixins.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_mixins.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_mixins.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_navigation.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_navigation.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_navigation.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_navigation.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_postformats.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_postformats.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_postformats.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_postformats.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_reset.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_reset.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_reset.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_settings.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_settings.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_settings.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_typography.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_typography.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_typography.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_widgets.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_widgets.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/_widgets.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/_widgets.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/quick-links-styles.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/quick-links-styles.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/style.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/quick-links-styles.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sassy_s\/.sass-cache\/557cb0c46961d1aa318578e15cb461873401d54d\/style.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/quick-links-styles.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_comments.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_comments.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_content.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_content.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_forms.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_forms.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_global.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_global.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_header.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_infinitescroll.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_infinitescroll.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_layout.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_layout.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_layout_home.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_layout_home.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_media.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_media.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_menu.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_menu.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_mixins.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_navigation.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_navigation.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_postformats.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_postformats.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_reset.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_reset.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_settings.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_settings.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_typography.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_typography.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_widgets.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/_widgets.scssc",
-		"oF": 0
-		},
-	"\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/style.scssc": {
+	"/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sassy_s\/.sass-cache\/610eae806449385e7c75f49ae8be3207d69434f1\/style.scssc",
+		"oAP": "/sassy_s/.sass-cache/557cb0c46961d1aa318578e15cb461873401d54d/style.scssc",
 		"oF": 0
 		},
-	"\/sassy_s\/_comments.scss": {
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_comments.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_comments.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_content.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_content.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_forms.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_forms.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_global.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_global.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_header.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_infinitescroll.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_infinitescroll.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_layout.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_layout.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_layout_home.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_layout_home.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_media.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_media.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_menu.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_menu.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_mixins.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_navigation.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_navigation.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_postformats.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_postformats.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_reset.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_reset.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_settings.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_typography.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_widgets.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/_widgets.scssc",
+		"oF": 0
+		},
+	"/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/style.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/sassy_s/.sass-cache/610eae806449385e7c75f49ae8be3207d69434f1/style.scssc",
+		"oF": 0
+		},
+	"/sassy_s/_comments.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -570,12 +570,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_comments.css",
+		"oAP": "/_comments.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_content.scss": {
+	"/sassy_s/_content.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -583,12 +583,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_content.css",
+		"oAP": "/_content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_forms.scss": {
+	"/sassy_s/_forms.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -596,12 +596,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_forms.css",
+		"oAP": "/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_global.scss": {
+	"/sassy_s/_global.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -609,12 +609,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_global.css",
+		"oAP": "/_global.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_header.scss": {
+	"/sassy_s/_header.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -622,12 +622,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_header.css",
+		"oAP": "/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_infinitescroll.scss": {
+	"/sassy_s/_infinitescroll.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -635,12 +635,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_infinitescroll.css",
+		"oAP": "/_infinitescroll.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_layout.scss": {
+	"/sassy_s/_layout.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -648,12 +648,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_layout.css",
+		"oAP": "/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_layout_home.scss": {
+	"/sassy_s/_layout_home.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -661,12 +661,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_layout_home.css",
+		"oAP": "/_layout_home.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_media.scss": {
+	"/sassy_s/_media.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -674,12 +674,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_media.css",
+		"oAP": "/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_menu.scss": {
+	"/sassy_s/_menu.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -687,12 +687,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_menu.css",
+		"oAP": "/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_mixins.scss": {
+	"/sassy_s/_mixins.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -700,12 +700,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_mixins.css",
+		"oAP": "/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_navigation.scss": {
+	"/sassy_s/_navigation.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -713,12 +713,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_navigation.css",
+		"oAP": "/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_postformats.scss": {
+	"/sassy_s/_postformats.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -726,12 +726,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_postformats.css",
+		"oAP": "/_postformats.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_reset.scss": {
+	"/sassy_s/_reset.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -739,12 +739,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_reset.css",
+		"oAP": "/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_sermons.scss": {
+	"/sassy_s/_sermons.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -752,12 +752,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_sermons.css",
+		"oAP": "/_sermons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_settings.scss": {
+	"/sassy_s/_settings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -765,12 +765,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_settings.css",
+		"oAP": "/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_typography.scss": {
+	"/sassy_s/_typography.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -778,12 +778,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_typography.css",
+		"oAP": "/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/_widgets.scss": {
+	"/sassy_s/_widgets.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -791,12 +791,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/_widgets.css",
+		"oAP": "/_widgets.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sassy_s\/quick-links-styles.scss": {
+	"/sassy_s/quick-links-styles.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -804,12 +804,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/quick-links-styles.css",
+		"oAP": "/quick-links-styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/sassy_s\/style.scss": {
+	"/sassy_s/style.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 5,
@@ -817,68 +817,68 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/style.min.css",
+		"oAP": "/style.min.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/screenshot.png": {
+	"/screenshot.png": {
 		"ft": 32768,
 		"iS": 6757,
 		"oA": 0,
-		"oAP": "\/screenshot.png",
+		"oAP": "/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/search.php": {
+	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/search.php",
+		"oAP": "/search.php",
 		"oF": 0
 		},
-	"\/sidebar.php": {
+	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sidebar.php",
+		"oAP": "/sidebar.php",
 		"oF": 0
 		},
-	"\/single.php": {
+	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/single.php",
+		"oAP": "/single.php",
 		"oF": 0
 		},
-	"\/style.css": {
+	"/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/style-min.css",
+		"oAP": "/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/style.min.css": {
+	"/style.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.min-min.css",
+		"oAP": "/style.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/style.min.css.map": {
+	"/style.min.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/style.min.css.map",
+		"oAP": "/style.min.css.map",
 		"oF": 0
 		}
 	},
@@ -898,141 +898,94 @@
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1044,7 +997,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1056,7 +1030,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1092,53 +1084,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1147,6 +1132,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1504,6 +1490,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1515,6 +1505,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1560,6 +1554,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1578,10 +1576,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1780,9 +1774,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2136,6 +2134,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2164,6 +2166,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2171,6 +2177,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2226,7 +2236,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2286,7 +2296,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/new.ebckingsmountain.com",
+	"externalServerAddress": "http://new.ebckingsmountain.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2681,7 +2691,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2700,7 +2709,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -2732,19 +2741,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -2800,7 +2809,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/",
+		"autoOutputPathRelativePath": "../",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -2829,7 +2838,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -2853,36 +2862,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2890,11 +2933,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2918,6 +2961,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -2934,7 +2981,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2942,20 +2997,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -2970,6 +3037,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -2978,12 +3053,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -2994,12 +3077,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3010,23 +3101,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3038,9 +3157,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
