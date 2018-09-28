@@ -1,2 +1,4 @@
 style.min.css:src/sassy_s/.
 style.min.css.map:src/sassy_s/.
+style.min.css:src/style.css
+style.min.css.map:src/style.css
