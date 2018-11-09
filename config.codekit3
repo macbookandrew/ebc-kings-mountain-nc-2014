@@ -16,6 +16,13 @@
 		"oAP": "/.editorconfig",
 		"oF": 0
 		},
+	"/.git-ftp-ignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/.git-ftp-ignore",
+		"oF": 0
+		},
 	"/.git-ftp-include": {
 		"cB": 0,
 		"ft": 8192,
