@@ -75,6 +75,10 @@ $overcast-color:    #ff8800;
 
 .wpfc-sermon {
 	> .wpfc-sermon-inner { border: none; }
+
+	@media screen and (min-width: 801px) {
+		.wpfc-sermon-image { flex: 0 50%; }
+	}
 }
 
 @media screen and (max-width: 400px) {
