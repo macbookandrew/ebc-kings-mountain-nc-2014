@@ -100,7 +100,8 @@ body:hover .visually-hidden button {
 	}
 }
 
-.home #wpYouTubeLive {
+.home #wpYouTubeLive,
+.wp-block-embed iframe {
 	display: block;
 	margin: 0 auto 1em;
 }
