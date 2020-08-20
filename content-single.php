@@ -19,6 +19,11 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<?php
+		if ( 'wpfc_sermon' === get_post_type() ) {
+			wpfc_sermon_single_v2();
+		}
+		?>
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages(
